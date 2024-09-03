@@ -1,0 +1,30 @@
+{
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "clean": "rm -rf .next node_modules && npm install"
+    },
+    "dependencies": {
+        "@xrenders/schema-builder": "^1.0.0-alpha.13",
+        "antd": "^5.4.0",
+        "form-render": "^2.3.0",
+        "less": "^4.2.0",
+        "less-loader": "^12.2.0",
+        "mongoose": "^8.6.0",
+        "next": "^12.3.4",
+        "next-transpile-modules": "^10.0.1",
+        "next-with-less": "^3.0.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^14.18.0",
+        "@types/react": "^17.0.38",
+        "css-loader": "^6.7.1",
+        "next-plugin-antd-less": "^1.8.0",
+        "style-loader": "^3.3.1",
+        "typescript": "^4.5.4"
+    }
+}
